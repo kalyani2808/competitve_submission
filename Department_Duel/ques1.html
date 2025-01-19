@@ -1,0 +1,49 @@
+<h2>Problem: Department Duel</h2>
+<p>The Principal of VIIT wants to determine which department is better at programming: <strong>CSE</strong> or <strong>ACSE</strong>. The heads of both departments claim their students are the best. To resolve the debate, the Principal decides to conduct a coding contest.</p>
+<p>The contest consists of 5 questions, each carrying 100 marks. The winner is determined by calculating the average percentage of scores for each department. The department with the higher average is declared the winner. If the number of scores provided is less than the total number of students in a department, assume the scores of the non-participants to be <strong>0</strong>.</p>
+
+<p><strong>Input Specification:</strong></p>
+<ul>
+    <li><strong>input1</strong>: Two space-separated integers representing the total number of students in <strong>CSE</strong> and <strong>ACSE</strong>, respectively.</li>
+    <li><strong>input2</strong>: An array of integers representing the scores of the participating CSE students.</li>
+    <li><strong>input3</strong>: An array of integers representing the scores of the participating ACSE students.</li>
+</ul>
+
+<p><strong>Output Specification:</strong></p>
+<p>Return a string: <strong>"CSE"</strong>, <strong>"ACSE"</strong>, or <strong>"Tie"</strong> based on the contest results.</p>
+
+<p><strong>Example 1:</strong></p>
+<p><strong>Input:</strong></p>
+<pre>
+3 2
+300 200 100
+400 100
+</pre>
+<p><strong>Output:</strong></p>
+<pre>
+ACSE
+</pre>
+
+<p><strong>Example 2:</strong></p>
+<p><strong>Input:</strong></p>
+<pre>
+4 4
+200 300
+150 250
+</pre>
+<p><strong>Output:</strong></p>
+<pre>
+CSE
+</pre>
+
+<p><strong>Example 3:</strong></p>
+<p><strong>Input:</strong></p>
+<pre>
+3 3
+300 300 300
+300 300 300
+</pre>
+<p><strong>Output:</strong></p>
+<pre>
+Tie
+</pre>
